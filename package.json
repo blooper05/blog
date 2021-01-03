@@ -10,12 +10,13 @@
     "storybook:start": "start-storybook -p 6006"
   },
   "dependencies": {
-    "autoprefixer": "^10.1.0",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
     "next": "10.0.4",
-    "postcss": "^8.2.2",
+    "postcss": "^7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.1.11",
