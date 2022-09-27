@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
     "format": "prettier --write --cache --cache-strategy metadata .",
+    "lint": "next lint",
     "lint:fix": "yarn lint --fix && yarn format",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "next": "12.3.1",
