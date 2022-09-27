@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "format": "prettier --write --cache --cache-strategy metadata .",
+    "lint:fix": "yarn lint --fix && yarn format",
     "lint": "next lint"
   },
   "dependencies": {
